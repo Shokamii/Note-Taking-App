@@ -1,0 +1,72 @@
+body {
+    width: 300px;
+    padding: 20px;
+    background-color: #1a1a1a; /* Dark background color */
+    color: #e0e0e0; /* Light text color */
+    font-family: 'Arial', sans-serif; /* Use a suitable font */
+}
+
+textarea {
+    width: calc(100% - 20px);
+    height: 150px;
+    margin-bottom: 10px;
+    background-color: #2c2c2c; /* Darker textarea background color */
+    color: #e0e0e0; /* Light text color */
+    border: 1px solid #1f1f1f; /* Dark border color */
+    padding: 10px;
+    font-size: 14px; /* Adjust font size */
+    resize: none;
+    border-radius: 6px; /* Rounded corners */
+    transition: background-color 0.3s ease;
+}
+
+button {
+    padding: 8px 16px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    background-color: #007acc; /* Dark blue button background color */
+    color: #ffffff; /* Light text color */
+    border: 1px solid #005999; /* Dark border color */
+    border-radius: 6px; /* Rounded corners */
+    font-size: 14px; /* Adjust font size */
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #005999; /* Dark blue hover color */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #333333; /* Darker list item background color */
+    color: #e0e0e0; /* Light text color */
+    border: 1px solid #222222; /* Dark border color */
+    padding: 12px; /* Increased padding for a more spacious feel */
+    border-radius: 8px; /* Rounded corners */
+    font-size: 14px; /* Adjust font size */
+    transition: background-color 0.3s ease;
+}
+
+.delete-note {
+    cursor: pointer;
+    color: #ff5757; /* Red delete note color */
+    display: flex;
+    align-items: center;
+    font-size: 16px; /* Larger font size for icon */
+}
+
+.delete-note i {
+    margin-right: 8px; /* Space between icon and text */
+}
+
+.delete-note:hover {
+    color: #cc3333; /* Darker red on hover */
+    background-color: #3a3a3a; /* Slightly darker background on hover */
+}
